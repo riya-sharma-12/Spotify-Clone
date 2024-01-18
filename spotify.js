@@ -8,14 +8,14 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songItemPlays = Array.from(document.getElementsByClassName('songItemPlay'));
 
 let songs = [
-    {songName: "Aashayein -Iqbal", filePath: "1.mp3", coverPath: "sp_1.jpg"},
+    {songName: "Aashayein - Iqbal", filePath: "1.mp3", coverPath: "1.jpeg"},
     {songName: "Badal Pe Paon Hain - Chak De India", filePath: "2.mp3", coverPath: "2.jpg"},
     {songName: "Chak De India Title Song", filePath: "3.mp3", coverPath: "3.jpg"},
     {songName: "Chak Lein De - Chandni Chowk To China", filePath: "4.mp3", coverPath: "4.jpg"},
     {songName: "Chale Chalo - Lagaan", filePath: "5.mp3", coverPath: "5.jpg"},
     {songName: "Kar Har Maidaan Fateh - Sanju", filePath: "6.mp3", coverPath: "6.jpg"},
     {songName: "Sultan Title Song", filePath: "7.mp3", coverPath: "7.jpg"},
-    {songName: "Zinda - Bhaag Milkha Bhaag", filePath: "9.mp3", coverPath: "9.jpg"},
+    {songName: "Zinda - Bhaag Milkha Bhaag", filePath: "9.mp3", coverPath: "8.jpg"},
 ];
 
 songItems.forEach((element, i) => {
